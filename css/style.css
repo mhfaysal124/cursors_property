@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(109 13 13);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cursor{
+    float: left;
+    margin: 12px;
+    width: 200px;
+    height: 100px;
+    background-color: #9e9595;
+    border-radius: 5px;
+
+    color: rgb(109 13 13);
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+    font-size: 33px;
+}
+.alias {
+    cursor: alias;
+}
+.all-scroll{
+    cursor: all-scroll;
+}
+.auto{
+    cursor: auto;
+}
+.cell{
+    cursor: cell;
+}
+.context-menu{
+    cursor: context-menu;
+}
+.col-resize{
+    cursor: col-resize;
+}
+.copy{
+    cursor: copy;
+}
+.crosshair{
+    cursor: crosshair;
+}
+.default{
+    cursor: default;
+}
+.e-resize{
+    cursor: e-resize;
+}
+.ew-resize{
+    cursor: ew-resize;
+}
+.grabbing{
+    cursor: grabbing;
+}
+.help{
+    cursor: help;
+}
+.move{
+    cursor: move;
+}
+.n-resize{
+    cursor: n-resize;
+}
+.ne-resize{
+    cursor: ne-resize;
+}
+.nesw-resize{
+    cursor: nesw-resize;
+}
+.ns-resize{
+    cursor: ns-resize;
+}
+.nw-resize{
+    cursor: nw-resize;
+}
+.nwse-resize{
+    cursor: nwse-resize;
+}
+.no-drop{
+    cursor: no-drop;
+}
+.none{
+    cursor: none;
+}
+.not-allowed{
+    cursor: not-allowed;
+}
+.pointer{
+    cursor: pointer;
+}
+.progress {
+    cursor: progress;
+}
+.row-resize {
+    cursor: row-resize;
+}
+.s-resize {
+    cursor: s-resize;
+}
+.se-resize {
+    cursor: se-resize;
+}
+.sw-resize {
+    cursor: sw-resize;
+}
+.text {
+    cursor: text;
+}
+.url {
+    cursor: url(myBall.cur),auto;
+}
+.w-resize {
+    cursor: w-resize;
+}
+.wait {
+    cursor: wait;
+}
+.zoom-in {
+    cursor: zoom-in;
+}
+.zoom-out 
+{
+    cursor: zoom-out;
+}
