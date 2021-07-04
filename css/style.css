@@ -12,11 +12,13 @@ h1{
 }
 .cursor{
     float: left;
-    margin: 12px;
+    margin: 10px;
     width: 200px;
     height: 100px;
     background-color: #9e9595;
     border-radius: 5px;
+    border: 2px solid #9e9595;
+    overflow: hidden;
 
     color: rgb(109 13 13);
     font-weight: bold;
@@ -24,6 +26,11 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 25px;
     font-size: 33px;
+    box-shadow: 0px 3px 7px 4px gainsboro;
+}
+.cursor:hover{
+    background-color: green;
+    color: white;
 }
 .alias {
     cursor: alias;
